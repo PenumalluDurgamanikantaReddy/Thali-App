@@ -1,0 +1,45 @@
+.menubg{
+left: 0px;
+    position: absolute;
+}
+
+.items{
+z-index: 2;
+    position: absolute;
+ bottom: 20rem;
+    left: 7rem;
+   
+}
+
+.itemsUi{
+    display: grid;
+  
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+
+    grid-column-gap:3rem;
+
+}
+.itemonPlate{
+
+    bottom:10rem ;
+    right: 15rem;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    max-height: 50%;
+    max-width: 50%;
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  
+}
+
+.plateitems{
+    width: 100%;
+    height: auto;
+   
+
+}

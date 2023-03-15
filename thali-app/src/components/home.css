@@ -1,0 +1,45 @@
+.homeimg{
+    left: 0px;
+    position: absolute;
+   
+}
+/* .navigation{
+   z-index: 2;
+    position: absolute; 
+    right:14rem;
+}
+
+ul{
+    list-style:none;
+    list-style-type: none; 
+    display: flex;
+    gap: 6rem;
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover{
+   background-color: rgb(255, 46, 88);
+   padding: 50px 15px 20px 15px;
+   border-radius: 5px; */
+/* } */
+.orderheadline{
+    z-index: 2;
+    position: absolute; 
+    bottom: 23rem;
+    left: 22rem; 
+    color: white;
+   font-size: 4rem;
+}
+.orderheadline :hover{
+    background-color: rgb(255, 46, 88);
+   padding: 25px 10px 25px 10px;
+   border-radius: 15px;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+    
+}

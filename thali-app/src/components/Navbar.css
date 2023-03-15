@@ -1,0 +1,26 @@
+.navigation{
+    z-index: 2;
+     position: absolute; 
+     right:14rem;
+ }
+ 
+ ul{
+     list-style:none;
+     list-style-type: none; 
+     display: flex;
+     gap: 6rem;
+     color: white;
+     font-size:xx-large;
+     font-weight: bold;
+ }
+ 
+ .navigation ul li a:hover{
+    background-color: rgb(255, 46, 88);
+    padding: 50px 15px 20px 15px;
+    border-radius: 5px;
+ }
+ a{
+    text-decoration:none;
+    color: white;
+    
+}
